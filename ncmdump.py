@@ -46,7 +46,6 @@ def dump(file_path):
     # 将 key_data 转型为 bytearray 类型
     key_data = bytearray(key_data)
 
-    # TODO
     # 以下是 RC4-KSA 算法
     key_box = bytearray(range(256))
     c = 0
